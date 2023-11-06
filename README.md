@@ -158,7 +158,10 @@ NodeJs Install Screenshoot
 
 ### SonarQube
 
-Create the token
+Create the token in sonarqube for that goto sonarqube -----> Click on Administration----->click on token and genrate the token
+
+![Alt text](sonarqube-token.png)
+
 
 Goto Jenkins Dashboard → Manage Jenkins → Credentials → Add Secret Text. It should look like this
 
