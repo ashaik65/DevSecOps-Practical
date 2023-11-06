@@ -307,7 +307,7 @@ pipeline{
         }
         stage('Checkout from Git'){
             steps{
-                git branch: 'main', url: 'https://github.com/ashaik65/DevSecOps-Practical.git'
+                git branch: 'master', url: 'https://github.com/ashaik65/DevSecOps-Practical.git'
             }
         }
         stage("Sonarqube Analysis "){
