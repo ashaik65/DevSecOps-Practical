@@ -146,6 +146,15 @@ Install below plugins
 
 Goto Manage Jenkins → Tools → Install JDK(17) and NodeJs(16)→ Click on Apply and Save
 
+Jdk Install screenshoot
+
+![Alt text](<jdk install steps.png>)
+
+
+NodeJs Install Screenshoot
+
+![Alt text](nodejs.png)
+
 
 ### SonarQube
 
