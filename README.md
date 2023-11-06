@@ -377,6 +377,8 @@ sudo systemctl restart jenkins
 
 **Phase 4: Monitoring**
 
+To install prometheus and grafana on server take one EC2 instnace of size t2.medium and do the configuration on that
+
 1. **Install Prometheus and Grafana:**
 
    Set up Prometheus and Grafana to monitor your application.
