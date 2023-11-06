@@ -85,8 +85,8 @@ docker run -d --name netflix -p 8081:80 netflix:latest
         ```
         We can also test file system lets scan it using this command
 
-        
-        trivy fs .  -----> make sure you need to be in correct path where your files are present
+
+        trivy fs . 
         
         to scan image using trivy
         ```
