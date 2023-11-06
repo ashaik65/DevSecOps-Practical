@@ -902,7 +902,11 @@ export ARGOCD_SERVER=`kubectl get svc argocd-server -n argocd -o json | jq --raw
 
 echo $ARGOCD_SERVER
 
-## copy the address and login to argocd
+## copy the address and login to argocd take pass using this commands
+
+export ARGO_PWD=`kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 -d`
+
+echo $ARGO_PWD
 
 
 
