@@ -886,11 +886,13 @@ Replace 'your-job-name' with a descriptive name for your job. The static_configs
 
    ```bash
    curl -X POST http://localhost:9090/-/reload
+   ```
 
 Don't forget to reload or restart Prometheus to apply these changes to your configuration.
 Note:- Open port for eks node to 9100 so target will healthy in prometheus like this
 
-![Alt text](prom.png)
+![Alt text](prom-1.png)
+
 
 To deploy an application with ArgoCD, you can follow these steps, which I'll outline in Markdown format:
 
