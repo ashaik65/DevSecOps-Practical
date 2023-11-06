@@ -165,6 +165,8 @@ Create the token in sonarqube for that goto sonarqube -----> Click on Administra
 
 Goto Jenkins Dashboard → Manage Jenkins → Credentials → Add Secret Text. It should look like this
 
+![Alt text](<jenkins creds.png>)
+
 After adding sonar token
 
 Click on Apply and Save
