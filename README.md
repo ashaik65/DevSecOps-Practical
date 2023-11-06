@@ -829,10 +829,13 @@ In this phase, you'll set up a Kubernetes cluster with node groups. This will pr
 use eksctl utlitiy and do all preq on jenkins machine and create cluster once create install helm because we need to install prometheus 
 
 #### Helm Install on Jenkins Machine #####
+```yaml
 curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3
-chmod 700 get_helm.sh
-./get_helm.sh
 
+chmod 700 get_helm.sh
+
+./get_helm.sh
+```
 ## Monitor Kubernetes with Prometheus
 
 Prometheus is a powerful monitoring and alerting toolkit, and you'll use it to monitor your Kubernetes cluster. Additionally, you'll install the node exporter using Helm to collect metrics from your cluster nodes.
