@@ -704,6 +704,15 @@ That's it! You've successfully installed and set up Grafana to work with Prometh
 1. **Implement Notification Services:**
     - Set up email notifications in Jenkins or other notification mechanisms.
 
+To setup this we need gmail account now goto gmail -----> click on managed google account -----> search for app passwords -----> create app password like this
+
+![Alt text](<app pass.png>)
+
+
+![Alt text](<app pass create.png>)
+
+
+
 # Phase 6: Kubernetes
 
 ## Create Kubernetes Cluster with Nodegroups
