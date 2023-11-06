@@ -886,6 +886,33 @@ To deploy an application with ArgoCD, you can follow these steps, which I'll out
 
    You can install ArgoCD on your Kubernetes cluster by following the instructions provided in the [EKS Workshop](https://archive.eksworkshop.com/intermediate/290_argocd/install/) documentation.
 
+```yaml
+
+kubectl create namespace argocd
+kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/v2.4.7/manifests/install.yaml
+
+## Expose argocd-server ##
+kubectl patch svc argocd-server -n argocd -p '{"spec": {"type": "LoadBalancer"}}'
+
+## Install jq on your server
+
+sudo apt install jq
+
+export ARGOCD_SERVER=`kubectl get svc argocd-server -n argocd -o json | jq --raw-output '.status.loadBalancer.ingress[0].hostname'`
+
+echo $ARGOCD_SERVER
+
+## copy the address and login to argocd
+
+
+
+
+
+
+```
+
+
+
 2. **Set Your GitHub Repository as a Source:**
 
    After installing ArgoCD, you need to set up your GitHub repository as a source for your application deployment. This typically involves configuring the connection to your repository and defining the source for your ArgoCD application. The specific steps will depend on your setup and requirements.
