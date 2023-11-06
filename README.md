@@ -6,6 +6,7 @@
 
 - Provision an EC2 instance on AWS with Ubuntu 22.04.
 - Connect to the instance using SSH.
+- Create Elastic IP and allocate this ip to the jenkins instance
 
 **Step 2: Clone the Code:**
 
