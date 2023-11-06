@@ -181,6 +181,11 @@ managed jenkins ------> Configure system ------> SonarQube servers  mentioned th
 
 ![Alt text](sonarserveer.png)
 
+we also need SonarQube Scanner installations for that goto Manage jenkins-----> Tools -----> SonarQube Scanner installations fill the details like this after did this click on Apply and Save
+
+![Alt text](scanner.png)
+
+
 Create a Jenkins webhook
 
 1. **Configure CI/CD Pipeline in Jenkins:**
