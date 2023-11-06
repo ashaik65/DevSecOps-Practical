@@ -711,6 +711,16 @@ To setup this we need gmail account now goto gmail -----> click on managed googl
 
 ![Alt text](<app pass create.png>)
 
+After that we need to configure this app password in jenkins for that follow this steps
+
+goto mange jenkins -----> click on system ----> go to E-mail Notification section and fill the information like this
+
+![Alt text](<smtp save.png>)
+
+also do the testing and check whether this is working fine you can see like this
+
+![Alt text](<test mail.png>)
+
 
 
 # Phase 6: Kubernetes
