@@ -713,6 +713,8 @@ To setup this we need gmail account now goto gmail -----> click on managed googl
 
 After that we need to configure this app password in jenkins for that follow this steps
 
+Also we need to configure creds so goto manage jenkins-----> credentials-----> add usename and password of gmail smtp password
+
 goto mange jenkins -----> click on system ----> go to E-mail Notification section and fill the information like this
 
 ![Alt text](<smtp save.png>)
