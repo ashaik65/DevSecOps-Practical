@@ -541,6 +541,8 @@ To install prometheus and grafana on server take one EC2 instnace of size t2.med
    **Prometheus Configuration:**
 
    To configure Prometheus to scrape metrics from Node Exporter and Jenkins, you need to modify the `prometheus.yml` file. Here is an example `prometheus.yml` configuration for your setup:
+   for `prometheus.yml` go to this directory `cd /etc/prometheus/` and do this configuration
+
 
    ```yaml
    global:
@@ -690,6 +692,11 @@ That's it! You've successfully installed and set up Grafana to work with Prometh
 
 2. **Configure Prometheus Plugin Integration:**
     - Integrate Jenkins with Prometheus to monitor the CI/CD pipeline.
+
+    To do this we need prometheus plugin install so goto managed jenkins -----> managed plugins -----> promethus plugin
+    then goto manage jenkins-----> System -----> and check for prometheus leave all the setting as default ----> Click on apply and save
+
+    Now create dashboard for jenkins in a grafana id is 9964 
 
 
 **Phase 5: Notification**
